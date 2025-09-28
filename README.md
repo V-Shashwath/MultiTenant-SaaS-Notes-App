@@ -1,6 +1,6 @@
 # Multi-Tenant SaaS Notes App
 
-A full-stack multi-tenant notes application with strict tenant isolation, role-based access, subscription feature gating, and a minimal frontend. Both backend and frontend are deployable on Vercel.
+A full-stack, multi-tenant SaaS Notes Application designed for secure, role-based collaboration, strict tenant isolation, and subscription feature gating. This project demonstrates modern full-stack development using React for the frontend and Node.js/Express with MongoDB Atlas for the backend. Both frontend and backend are deployed on Vercel.
 
 ---
 
@@ -95,6 +95,13 @@ All accounts use password: `password`
 - Both backend and frontend are deployable on Vercel.
 - CORS is enabled for API access from scripts and dashboards.
 
+**Live Deployment URLs:**
+
+- **Backend:** https://multitenant-saas-notes-app-backend.vercel.app/
+- **Frontend:** https://multitenant-saas-notes-app-frontend.vercel.app/login
+
+---
+
 ---
 
 ## Getting Started (Development)
@@ -116,7 +123,8 @@ All accounts use password: `password`
    # In frontend/
    npm run dev
    ```
-5. **Access the app** at `http://localhost:3001`.
+5. **Access the app Backend** at `http://localhost:3001`.
+5. **Access the app Frontend** at `http://localhost:5173`.
 
 ---
 
